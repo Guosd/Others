@@ -35,7 +35,7 @@ new ExportExcel("标题", Test.class).setDataList(testList).write(response, file
 ```java
 @Data
 public class Test implements Serializable {
-	// title 列名  
+  // title 列名  
   // align 0：自动；1：靠左；2：居中；3：靠右
   // sort 导出字段字段排序
   @ExcelField(title="Test1", align=2, sort=10)
