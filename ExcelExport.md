@@ -7,6 +7,7 @@ Excel 文件生成，下载只需如下一行代码（有没有很爽！）
 ```java
 new ExportExcel("标题", Test.class).setDataList(testList).write(response, fileName).dispose();
 ```
+文件名称：类名所在文件夹
 
 ## 1. 使用说明
 
